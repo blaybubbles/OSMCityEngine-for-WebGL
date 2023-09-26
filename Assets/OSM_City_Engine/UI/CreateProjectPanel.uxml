@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/OSM_City_Engine/UI/CreateProjectPanel.uss?fileID=7433441132597879392&amp;guid=69ea52bdcf08b7948a45b25dd14c6279&amp;type=3#CreateProjectPanel" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; align-items: center; justify-content: center; width: 50%; height: 80%; flex-shrink: 0; margin-right: auto; margin-left: auto; margin-top: auto; margin-bottom: auto; max-width: 600px; min-width: 350px; min-height: 500px; max-height: 600px;">
+        <ui:VisualElement name="projectPanel" class="projectPanel" style="justify-content: column; width: 100%; height: 100%; border-left-color: rgba(255, 255, 255, 0.12); border-right-color: rgba(255, 255, 255, 0.12); border-top-color: rgba(255, 255, 255, 0.12); border-bottom-color: rgba(255, 255, 255, 0.12); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+            <ui:VisualElement>
+                <ui:Label text="Select place" display-tooltip-when-elided="true" name="placeTitle" class="panel-title" style="font-size: 20px;" />
+                <ui:TextField picking-mode="Ignore" label="Search" name="placeInput" class="place-input-group" />
+            </ui:VisualElement>
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="searchresult" />
+            <ui:VisualElement>
+                <ui:Label text="Render" display-tooltip-when-elided="true" name="renderTitle" class="panel-title" style="font-size: 20px; display: flex;" />
+                <ui:VisualElement>
+                    <ui:RadioButtonGroup label="Select texture provider" value="-1" style="flex-direction: column;">
+                        <ui:VisualElement style="flex-direction: row; flex-grow: 0; flex-wrap: wrap;">
+                            <ui:RadioButton label="Bing Maps" style="align-items: flex-start; flex-direction: row-reverse;" />
+                            <ui:RadioButton label="Radio Button" style="align-items: flex-start; flex-direction: row-reverse;" />
+                            <ui:RadioButton label="Radio Button" style="align-items: flex-start; flex-direction: row-reverse;" />
+                            <ui:RadioButton label="Radio Button" name="RadioButton" style="align-items: flex-start; flex-direction: row-reverse;" />
+                        </ui:VisualElement>
+                    </ui:RadioButtonGroup>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label text="Relief" display-tooltip-when-elided="true" name="reliefTitle" class="panel-title" style="font-size: 20px; display: flex;" />
+                <ui:RadioButtonGroup label="Select relief provider" value="-1" style="flex-direction: column;">
+                    <ui:VisualElement style="flex-direction: row; flex-wrap: wrap;">
+                        <ui:RadioButton label="SRTM GL3 - Global 90m" style="align-items: flex-start; flex-direction: row-reverse;" />
+                        <ui:RadioButton label="Radio Button" style="align-items: flex-start; flex-direction: row-reverse;" />
+                    </ui:VisualElement>
+                </ui:RadioButtonGroup>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; flex-grow: 0;">
+                <ui:Label text="Terrain size" display-tooltip-when-elided="true" name="terrainTitle" class="panel-title" style="font-size: 20px; display: none;" />
+                <ui:Slider picking-mode="Ignore" label="Slider" value="1" high-value="8" name="terrainsize" low-value="1" style="flex-grow: 1;" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="terrainsizelabel" style="flex-shrink: 1; width: 30px; align-items: center; justify-content: center; -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; justify-content: flex-end; align-items: center;">
+                <ui:Button text="Render" display-tooltip-when-elided="true" name="renderButton" class="primary-btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

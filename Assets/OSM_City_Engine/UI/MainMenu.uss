@@ -1,0 +1,74 @@
+VisualElement {
+}
+
+.menu-btn {
+    height: 30px;
+    width: 120px;
+    background-color: rgba(122, 139, 155, 0.69);
+    border-width: 0;
+    color: white;
+    -unity-font-definition: url('project://database/Assets/OSM_City_Engine/Fonts/Opus%20SDF.asset?fileID=11400000&guid=66a837577f2a0384f9368064e9b6c6df&type=2#Opus SDF');
+    font-size: 20px;
+    border-radius: 0;
+}
+
+.tese {
+    -unity-font: url('project://database/Assets/OSM_City_Engine/Fonts/Opus.ttf?fileID=12800000&guid=ebfa3933509523c4897d2d661769cda6&type=3#Opus');
+}
+
+.tete {
+    -unity-font-definition: url('project://database/Assets/OSM_City_Engine/Fonts/Opus%20SDF.asset?fileID=11400000&guid=66a837577f2a0384f9368064e9b6c6df&type=2#Opus SDF');
+    font-size: 20px;
+}
+
+.change-view-btn {
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(227, 214, 194);
+}
+
+.button-icon{
+     width: 30px;
+    height: 30px;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.change-view-btn.person-btn > .button-icon {
+	background-image: url('project://database/Assets/OSM_City_Engine/Art/UI/person.png?fileID=21300000&guid=468b2a8ec0bee0e4c842d66218d5fbbd&type=3#person');
+}
+
+.change-view-btn.fly-btn > .button-icon {
+	background-image: url('project://database/Assets/OSM_City_Engine/Art/UI/camera.png?fileID=21300000&guid=3b49fdce24bc1be4aa885bd247b2b74d&type=3#camera');
+}
+
+.button-person-icon {
+    /* background-image: url('project://database/Assets/OSM_City_Engine/Art/UI/person.png?fileID=21300000&guid=468b2a8ec0bee0e4c842d66218d5fbbd&type=3#person'); */
+   /*  width: 44px;
+    height: 38px;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; */
+}
+
+.button-camera-icon {
+   /*  width: 30px;
+    height: 30px; */
+    /* background-image: url('project://database/Assets/OSM_City_Engine/Art/UI/camera.png?fileID=21300000&guid=3b49fdce24bc1be4aa885bd247b2b74d&type=3#camera'); */
+}

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InitialConfigurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HighwayConfigurations>
+    <Highway type="HighwayResidential" size="6">
+      <materialPath>Materials/Highway/Mat_Residential</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayPrimary" size="10">
+      <materialPath>Materials/Highway/Mat_Primary</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwaySecondary" size="10">
+      <materialPath>Materials/Highway/Mat_Secondary</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayTertiary" size="8">
+      <materialPath>Materials/Highway/Mat_Tertiary</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayTertiaryLink" size="8">
+      <materialPath>Materials/Highway/Mat_TertiaryLink</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayUnclassified" size="7">
+      <materialPath>Materials/Highway/Mat_Unclassified</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayService" size="4">
+      <materialPath>Materials/Highway/Mat_Service</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayPath" size="6">
+      <materialPath>Materials/Highway/Mat_Path</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayFootway" size="4">
+      <materialPath>Materials/Highway/Mat_Footway</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="HighwayPavement" size="2">
+      <materialPath>Materials/Highway/Mat_Pavement</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="Railway" size="1.5">
+      <materialPath>Materials/Highway/Mat_Railway</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+    <Highway type="River" size="8">
+      <materialPath>Materials/Highway/Mat_River</materialPath>
+      <hasLeftSideWalk>false</hasLeftSideWalk>
+      <hasRightSideWalk>false</hasRightSideWalk>
+      <LeftSideWalkSize>0</LeftSideWalkSize>
+      <RightSideWalkSize>0</RightSideWalkSize>
+    </Highway>
+  </HighwayConfigurations>
+  <RiverConfigurations size="6" materialPath="Materials/River/??" />
+  <BuildingConfigurations>
+    <minheight>14</minheight>
+    <maxheight>18</maxheight>
+    <defaultColor>
+      <x>0.5</x>
+      <y>0.5</y>
+      <z>0.5</z>
+    </defaultColor>
+    <defaultSkins>
+      <Skin isActive="true" name="White Concrete">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/buildingTexture1.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building1Normal.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building1Specular.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Dark Brick">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/buildingTexture2.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building2Normal.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building2Specular.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Light Brick">
+        <textureWidth>12</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/buildingTexture3.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building3Normal.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building3Specular.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Concrete 2">
+        <textureWidth>8</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/buildingTexture4.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building4Normal.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building4Specular.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Dark Brick 2">
+        <textureWidth>8</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/buildingTexture5.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/Building5Normal.png</normalTextPath>
+        <specularTextPath />
+      </Skin>
+      <Skin isActive="false" name="Antic Stones">
+        <textureWidth>30</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/towerTexture.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/NormalMapTower.png</normalTextPath>
+        <specularTextPath />
+      </Skin>
+      <Skin isActive="false" name="Kiosk">
+        <textureWidth>2</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/KioskTexture.jpg</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Building/NormalMapKiosk.png</normalTextPath>
+        <specularTextPath />
+      </Skin>
+      <Skin isActive="true" name="White Historic">
+        <textureWidth>12</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture1_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture1_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture1_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Yellow-Orrange Concrete">
+        <textureWidth>20</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture2_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture2_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture2_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Wide Historic">
+        <textureWidth>24</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture3_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture3_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture3_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Old Concrete 2-floor">
+        <textureWidth>8</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture4_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture4_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture4_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Old Stone">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture5_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture5_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture5_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Stone">
+        <textureWidth>8</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture6_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture6_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture6_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Concrete 3">
+        <textureWidth>8</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture7_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture7_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture7_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Brick">
+        <textureWidth>8</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture8_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture8_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture8_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Old Concrete with Shop">
+        <textureWidth>12</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture9_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture9_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture9_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Brick 2">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture10_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture10_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture10_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Old Concrete">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture11_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture11_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture11_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Yellow Historic">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture12_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture12_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture12_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Yellow Concrete with Shop">
+        <textureWidth>12</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture13_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture13_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture13_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Brown-White Concrete">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture14_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture14_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture14_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Orange Wide">
+        <textureWidth>24</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture15_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture15_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture15_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Stone 2">
+        <textureWidth>12</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture16_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture16_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture16_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Stone Modern">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture17_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture17_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture17_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Concrete Modern">
+        <textureWidth>20</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture18_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture18_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture18_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="Office Type">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture19_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture19_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture19_SPEC.png</specularTextPath>
+      </Skin>
+      <Skin isActive="true" name="White Concrete 4">
+        <textureWidth>16</textureWidth>
+        <colorTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/ColorTex/BuildingTexture20_COLOR.png</colorTextPath>
+        <normalTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/NormalTex/BuildingTexture20_NRM.png</normalTextPath>
+        <specularTextPath>D:/Unity/Urban/OsmProjects/OSMCity/Assets/Resources/Textures/Buildings/SpecularTex/BuildingTexture20_SPEC.png</specularTextPath>
+      </Skin>
+    </defaultSkins>
+  </BuildingConfigurations>
+  <AreaConfigurations>
+    <defaultColor>
+      <x>0.3</x>
+      <y>0.3</y>
+      <z>0.3</z>
+    </defaultColor>
+  </AreaConfigurations>
+  <BarrierConfigurations>
+    <Barrier name="Fence" ResourcePath="Materials/Barrier/chainlink">
+      <width>0.1</width>
+      <height>2</height>
+    </Barrier>
+    <Barrier name="Wall" ResourcePath="Materials/Barrier/BrickWall">
+      <width>0.3</width>
+      <height>1.5</height>
+    </Barrier>
+    <Barrier name="City Wall" ResourcePath="Materials/Barrier/CityWall">
+      <width>3</width>
+      <height>15</height>
+    </Barrier>
+    <Barrier name="Retaining Wall" ResourcePath="Materials/Barrier/RetainingWall">
+      <width>0.3</width>
+      <height>3</height>
+    </Barrier>
+    <Barrier name="Default" ResourcePath="Materials/Barrier/Default">
+      <width>0.5</width>
+      <height>2</height>
+    </Barrier>
+  </BarrierConfigurations>
+</InitialConfigurations>

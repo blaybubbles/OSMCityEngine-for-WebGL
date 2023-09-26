@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/OSM_City_Engine/UI/PersonUI.uss?fileID=7433441132597879392&amp;guid=1e11a4c2f648a214f926c19d7b9f7ab3&amp;type=3#PersonUI" />
+    <ui:VisualElement name="changeView" style="position: absolute; right: 40px; top: 26px; width: 288px; height: 34px;">
+        <ui:Label text="Press &apos;O&apos; to change view" display-tooltip-when-elided="true" style="font-size: 20px; color: rgb(255, 255, 255); -unity-text-outline-color: rgb(224, 224, 224); -unity-font-style: normal; letter-spacing: 1px; word-spacing: 1px; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

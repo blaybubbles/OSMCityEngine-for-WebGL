@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/OSM_City_Engine/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=e64eb6345c773324db46e925e73d5b67&amp;type=3#MainMenu" />
+    <ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Button text="Create city" display-tooltip-when-elided="true" name="createproject" class="menu-btn" />
+            <ui:Button text="Load project" display-tooltip-when-elided="true" name="loadproject" class="menu-btn" style="display: none;" />
+            <ui:Button text="Save project" display-tooltip-when-elided="true" name="saveproject" class="menu-btn" style="display: none;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings" class="menu-btn" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit" class="menu-btn" />
+            <ui:VisualElement style="flex-grow: 1;" />
+            <ui:VisualElement>
+                <ui:Button display-tooltip-when-elided="true" name="cameraBtn" class="change-view-btn person-btn">
+                    <ui:VisualElement class="button-icon button-person-icon" style="width: 30px; height: 30px; -unity-background-scale-mode: stretch-to-fill;" />
+                    <ui:VisualElement class="button-camera-icon" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

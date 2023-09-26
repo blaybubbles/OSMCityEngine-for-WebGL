@@ -1,0 +1,43 @@
+.projectPanel{
+	/* width: 50%; 
+	height:80%; */
+	background-color:rgba(122,139,155, 0.8); 
+	border-radius: 5px;
+	padding: 20px;
+/* scale:0.8; */
+}
+.panel-title{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.unity-radio-button-group{
+	font-size: 14px;
+}
+.unity-radio-button-group > Label{
+	font-size:16px;
+	margin-bottom:10px;
+}
+.place-input-group > Label{
+	align-items: start;
+	flex-grow:0;
+	min-width: 60px;
+}
+
+.place-input-group > .unity-text-field__input{
+	flex-grow:1;
+	min-width: 200px;
+	max-width: 400px;
+}
+
+.primary-btn{
+	    height: 30px;
+    width: 120px;
+    background-color:  rgba(122,122,155, 0.8); 
+    border-width: 0;
+    color: white;
+    -unity-font-definition: url('project://database/Assets/OSM_City_Engine/Fonts/Opus%20SDF.asset?fileID=11400000&guid=66a837577f2a0384f9368064e9b6c6df&type=2#Opus SDF');
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+/* green #7a9b9a */
