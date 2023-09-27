@@ -58,16 +58,15 @@ You can access the OSM City Engine WebGL application by visiting [https://osm.bl
 
 To create a 3D city model using our application, follow these steps:
 
-    1. **Enter City Name or Coordinates:** In the city model creation panel, provide either the city's name or its coordinates. You can copy coordinates from any map source. If you enter a city name and press enter, the application show the coordinates for that city below input field in the format "latitude, longitude".
-   [City Model Panel](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/load_menu.png)
-   _City model creation panel._
+1. **Enter City Name or Coordinates:** In the city model creation panel, provide either the city's name or its coordinates. You can copy coordinates from any map source. If you enter a city name and press enter, the application shows the coordinates for that city below input field in the format "latitude, longitude".
+![City Model Panel](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/load_menu.png)
+_City model creation panel._
 
 2. **Tile Source and Elevation Map:** Currently, the options for tile source and elevation map are not fully developed. For now, the application uses Bing Maps for tile images and NASE Strm G3 for elevation data.
 
 3. **Adjust City Size:** Use the slider "Slider" to specify the dimensions of your city. The default size is set to 1 kilometer, with a maximum recommended size of 2 kilometers for web-based rendering.
 
 4. **Render the City:** Once you've configured the city parameters, click the "Render" button to generate the 3D city model.
-
 ![Example of a City Model](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/7_.png)
 _Example of a city model generated using the OSM City Engine._
 
@@ -79,10 +78,14 @@ In the OSM City Engine WebGL application, you can interact with the city model i
 ![Free Fly Mode](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/4_.png)
 
 2. **Third Person Mode:** To switch to third-person mode, click the button with a person icon located in the upper right corner of the screen. In this mode, the camera is positioned behind a virtual character, providing a different perspective of the city.
+To return to free fly mode, simply press the "O" key.
+![Third Person Button](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/5_.png)
 
-   To return to free fly mode, simply press the "O" key.
-
-   ![Third Person Button](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/5_.png)
+### Examples
+![Example of London](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/london.png)
+_London generated using the OSM City Engine._
+![Example of Paris](https://github.com/blaybubbles/OSMCityEngine-for-WebGL/blob/main/images/Paris.png)
+_Paris generated using the OSM City Engine._
 
 ## Contribution
 
