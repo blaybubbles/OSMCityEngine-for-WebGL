@@ -13,7 +13,7 @@ This project was born out of a personal interest in bringing an existing project
 
 - **Mobile Compatibility:** I aimed to investigate the feasibility of running the project in a web browser on mobile devices, providing a broader audience with access to the 3D city model.
 
-- **Graphics Exploration:** I were curious about how the Universal Render Pipeline (URP) would perform in real-time and wanted to visually enhance the project.
+- **Graphics Exploration:** I was curious about how the Universal Render Pipeline (URP) would perform in real-time and wanted to visually enhance the project.
 
 - **Optimization Challenges:** A significant portion of the project involved transitioning from synchronous to asynchronous operations and integrating the Overpass API to enhance performance and responsiveness.
 
