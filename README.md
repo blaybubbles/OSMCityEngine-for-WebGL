@@ -1,6 +1,6 @@
 # OSM City Engine for WebGL
 
-This project is an adaptation and enhancement of the Polimi OSM City Engine, originally developed by [BerkeCagkanToptas](https://github.com/BerkeCagkanToptas/OSM-City-Engine). In this version, we have made several improvements, restored missing files, and optimized it for WebGL rendering.
+This project is an adaptation and enhancement of the Polimi OSM City Engine, originally developed by [BerkeCagkanToptas](https://github.com/BerkeCagkanToptas/OSM-City-Engine). In this version, I have made several improvements, restored missing files, and optimized it for WebGL rendering.
 
 ## Overview
 
@@ -11,15 +11,15 @@ This project was born out of a personal interest in bringing an existing project
 
 - **Web Adaptation:** The goal was to determine whether it was possible to adapt an existing Unity 3D project into a web application with minimal modifications.
 
-- **Mobile Compatibility:** We aimed to investigate the feasibility of running the project in a web browser on mobile devices, providing a broader audience with access to the 3D city model.
+- **Mobile Compatibility:** I aimed to investigate the feasibility of running the project in a web browser on mobile devices, providing a broader audience with access to the 3D city model.
 
-- **Graphics Exploration:** We were curious about how the Universal Render Pipeline (URP) would perform in real-time and wanted to visually enhance the project.
+- **Graphics Exploration:** I were curious about how the Universal Render Pipeline (URP) would perform in real-time and wanted to visually enhance the project.
 
 - **Optimization Challenges:** A significant portion of the project involved transitioning from synchronous to asynchronous operations and integrating the Overpass API to enhance performance and responsiveness.
 
-- **Exploring New Tools:** As a hobbyist project, we took the opportunity to experiment with the new Input System and UI Toolkit in Unity, learning how to implement these tools effectively.
+- **Exploring New Tools:** As a hobbyist project, I took the opportunity to experiment with the new Input System and UI Toolkit in Unity, learning how to implement these tools effectively.
 
-- **Camera Modes:** We introduced the option to switch between free fly and third-person camera modes, enhancing user exploration and interaction.
+- **Camera Modes:** I introduced the option to switch between free fly and third-person camera modes, enhancing user exploration and interaction.
 
 - **UI Toolkit and Event Handling:** The UI Toolkit's flexibility was appreciated, although manually handling events proved to be more time-consuming but ultimately rewarding.
 
@@ -28,11 +28,11 @@ Overall, this project served as a learning experience and an opportunity to appl
 
 ## Features
 
-- **WebGL Rendering:** We've adapted the OSM City Engine to utilize WebGL for rendering, making it suitable for web-based applications and interactive 3D visualization on modern browsers.
+- **WebGL Rendering:** I've adapted the OSM City Engine to utilize WebGL for rendering, making it suitable for web-based applications and interactive 3D visualization on modern browsers.
 
-- **Bug Fixes:** We've addressed known issues and fixed bugs in the original project to ensure smoother performance and a more reliable user experience.
+- **Bug Fixes:** I've addressed known issues and fixed bugs in the original project to ensure smoother performance and a more reliable user experience.
 
-- **File Recovery:** Some essential files were missing in the original project. We've located and restored these files to ensure the project's functionality.
+- **File Recovery:** Some essential files were missing in the original project. I've located and restored these files to ensure the project's functionality.
 
 ## Getting Started
 
